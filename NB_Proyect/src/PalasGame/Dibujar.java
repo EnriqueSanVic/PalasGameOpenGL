@@ -1,5 +1,5 @@
 
-package jogl_prueba;
+package PalasGame;
 
 import com.jogamp.opengl.GLAutoDrawable;
 

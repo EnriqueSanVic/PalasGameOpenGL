@@ -1,5 +1,5 @@
 
-package jogl_prueba;
+package PalasGame;
 
 
 public class Vector{

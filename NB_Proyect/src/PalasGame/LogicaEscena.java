@@ -1,5 +1,5 @@
 
-package jogl_prueba;
+package PalasGame;
 
 import static com.jogamp.opengl.GL.GL_COLOR_BUFFER_BIT;
 import static com.jogamp.opengl.GL.GL_DEPTH_BUFFER_BIT;
@@ -29,16 +29,14 @@ public class LogicaEscena{
     private Pala maquina;
     private Bola bola;
     private Pared paTop,paBottom;
-    
-    private static Sonido reproductor;
-    
+        
     private float minVelBola = -0.02f, maxVelBola = 0.02f;
     
     boolean isWPressed=false;
     boolean isSPressed=false;
     
     protected static void sonido(){
-        reproductor.reproducir();
+        new Sonido("./kick_sound.aiff").start();
     }
 
     public LogicaEscena() {
@@ -347,9 +345,6 @@ public class LogicaEscena{
         maquina.setParedes(paTop, paBottom);
         
         bola.reinicioGolpes(); //reniniciamos el contador de golpes de la bola
-        
-        reproductor = new Sonido("./kick_sound.aiff");
-        reproductor.start(); /*Se inicia el hilo del reproductor*/
         
     }  
         

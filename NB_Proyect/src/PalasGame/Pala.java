@@ -1,7 +1,7 @@
 /*
     crear sistema de colisiones independiente al de la bola para poner limites a las paredes y las colisiones de los laterales con la bola
  */
-package jogl_prueba;
+package PalasGame;
 
 import com.jogamp.opengl.GL2;
 import static com.jogamp.opengl.GL2ES3.GL_QUADS;

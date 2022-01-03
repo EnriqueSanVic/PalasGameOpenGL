@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jogl_prueba;
+package PalasGame;
 
 import com.jogamp.opengl.GL2;
 import static com.jogamp.opengl.GL2ES3.GL_QUADS;
