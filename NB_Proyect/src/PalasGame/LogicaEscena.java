@@ -111,6 +111,7 @@ public class LogicaEscena{
     
     
     public void render(GLAutoDrawable drawable){
+        
         final GL2 gl = drawable.getGL().getGL2();
         gl.glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);     // Clear The Screen And The Depth Buffer
                               // Reset The View
